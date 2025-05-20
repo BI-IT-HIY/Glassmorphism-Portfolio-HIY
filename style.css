@@ -33,7 +33,7 @@ a {
 main {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
-  background: linear-gradient(to right top, #000000, #6cdbeb);
+  background: linear-gradient(to right top, #000000, #000000);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +43,7 @@ main {
   justify-content: flex-end;
 }
 .glassbutton p {
-  color: #1db69a;
+  color: #000000;
   font-weight: 600;
   display: inline-block;
   clear: both;
@@ -141,7 +141,7 @@ main {
   display: flex;
   background: linear-gradient(
     to left top,
-    rgba(255, 255, 255, 0.8),
+    rgba(253, 253, 253, 0.8),
     rgba(255, 255, 255, 0.5)
   );
   border-radius: 1rem;

@@ -5,7 +5,7 @@
 }
 
 h1 {
-  color: #426696;
+  color: #ffffff;
   font-weight: 600;
   font-size: 2.5rem;
   opacity: 0.8;
@@ -14,13 +14,13 @@ h2,
 p {
   display: inline;
   vertical-align: middle;
-  color: #658ec6;
+  color: #ffffff;
   font-weight: 500;
   opacity: 0.8;
 }
 
 h3 {
-  color: #426696;
+  color: #ffffff;
   font-weight: 600;
   font-size: 20px;
   opacity: 0.8;
@@ -43,7 +43,11 @@ main {
   justify-content: flex-end;
 }
 .glassbutton p {
+<<<<<<< HEAD
   color: #ffffff;
+=======
+  color: #000000;
+>>>>>>> 2948e9061b2f45e1700741b4065ebd43032e3c7f
   font-weight: 600;
   display: inline-block;
   clear: both;
@@ -57,7 +61,7 @@ main {
   padding: 1rem;
 }
 .glass {
-  background: white;
+  background: rgb(0, 0, 0);
   margin: 51px;
   width: 75%;
   background: linear-gradient(
@@ -72,10 +76,10 @@ main {
 }
 .circle1,
 .circle2 {
-  background: white;
+  background: rgb(0, 0, 0);
   background: linear-gradient(
     to right bottom,
-    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.3)
   );
   height: 11rem;
@@ -102,7 +106,7 @@ main {
   text-align: center;
   background: linear-gradient(
     to right bottom,
-    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.8),
     rgba(255, 255, 255, 0.3)
   );
   border-radius: 2rem;
@@ -141,7 +145,7 @@ main {
   display: flex;
   background: linear-gradient(
     to left top,
-    rgba(255, 255, 255, 0.8),
+    rgba(253, 253, 253, 0.8),
     rgba(255, 255, 255, 0.5)
   );
   border-radius: 1rem;
@@ -172,7 +176,11 @@ main {
 }
 .gradient-par {
   font-weight: bold;
+<<<<<<< HEAD
   background: linear-gradient(to right, #ffffff, #000000);
+=======
+  background: linear-gradient(to right, #000000, #000000);
+>>>>>>> 2948e9061b2f45e1700741b4065ebd43032e3c7f
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

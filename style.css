@@ -43,7 +43,11 @@ main {
   justify-content: flex-end;
 }
 .glassbutton p {
+<<<<<<< HEAD
+  color: #ffffff;
+=======
   color: #000000;
+>>>>>>> 2948e9061b2f45e1700741b4065ebd43032e3c7f
   font-weight: 600;
   display: inline-block;
   clear: both;
@@ -172,7 +176,11 @@ main {
 }
 .gradient-par {
   font-weight: bold;
+<<<<<<< HEAD
+  background: linear-gradient(to right, #ffffff, #000000);
+=======
   background: linear-gradient(to right, #000000, #000000);
+>>>>>>> 2948e9061b2f45e1700741b4065ebd43032e3c7f
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
